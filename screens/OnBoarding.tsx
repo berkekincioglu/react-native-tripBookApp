@@ -3,6 +3,7 @@ import React from 'react';
 import {StyleSheet, Text, View, SafeAreaView, Image} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import LinearGradient from 'react-native-linear-gradient';
+import Dropdown from '../components/Dropdown';
 import {COLORS, FONTS, images, SIZES} from '../constants';
 
 interface Props {}

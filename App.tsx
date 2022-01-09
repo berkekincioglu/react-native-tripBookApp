@@ -1,4 +1,5 @@
 import React from 'react';
+import 'react-native-gesture-handler';
 import {
   StatusBar,
   StyleSheet,
@@ -15,6 +16,7 @@ import Destination from './screens/Destination';
 import OnBoarding from './screens/OnBoarding';
 import {COLORS, icons, SIZES} from './constants';
 import Tabs from './navigation/Tabs';
+import Drawers from './navigation/Drawers';
 
 const Stack = createNativeStackNavigator();
 
@@ -52,31 +54,16 @@ const App = ({navigation}: any) => {
           options={{
             title: '',
             headerStyle: {backgroundColor: COLORS.white},
-            headerLeft: ({onPress}: any) => (
-              <TouchableOpacity
-                style={{marginLeft: SIZES.padding * 0.5}}
-                onPress={onPress}>
-                <Image
-                  source={icons.back}
-                  resizeMode="contain"
-                  style={{width: 25, height: 25}}
-                />
-              </TouchableOpacity>
-            ),
-            headerRight: () => (
-              <TouchableOpacity onPress={() => console.log('pressed')}>
-                <Image
-                  source={icons.menu}
-                  resizeMode="contain"
-                  style={{width: 25, height: 25}}
-                />
-              </TouchableOpacity>
-            ),
           }}
         />
         <Stack.Screen
           name="Destination"
           component={Destination}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Drawer"
+          component={Drawers}
           options={{headerShown: false}}
         />
       </Stack.Navigator>
