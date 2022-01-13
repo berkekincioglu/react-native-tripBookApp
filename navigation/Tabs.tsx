@@ -1,16 +1,26 @@
-import React from 'react';
-import {Image, View, TouchableOpacity} from 'react-native';
+import React, {useState} from 'react';
+import {Image, View, TouchableOpacity, Text, Modal} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import {COLORS, icons, SIZES} from '../constants';
 import {useNavigation} from '@react-navigation/native';
+
+import {
+  Menu,
+  MenuOptions,
+  MenuOption,
+  MenuTrigger,
+} from 'react-native-popup-menu';
+import {DrawerActions} from '@react-navigation/native';
 
 interface TabsProps {}
 
 const Tab: any = createBottomTabNavigator();
 
 const Tabs: React.FunctionComponent<TabsProps> = props => {
-  const navigation = useNavigation();
+  const navigation: any = useNavigation();
+  const [visible, setVisible] = useState(false);
+
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerLeft: () => (

@@ -20,16 +20,16 @@
 		53E7737AF9924079867BF02C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F78F71621F594E4DB5B91221 /* Roboto-BoldItalic.ttf */; };
 		599E4E4167234CDFBC2ABBC2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B308F03121341BC89333306 /* Roboto-Medium.ttf */; };
 		606A60CB4A474F52B50C93D4 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9091A1E1DF554B8D91F54D92 /* Roboto-MediumItalic.ttf */; };
-		6172F2D35A4C3AA820D92908 /* libPods-tripBookingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-tripBookingApp.a */; };
 		6319DF4B845F42EAAF40C477 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F211D22B40234B30AD91F192 /* RobotoCondensed-Light.ttf */; };
-		7EF68E3733C33B6898317E18 /* libPods-tripBookingApp-tripBookingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-tripBookingApp-tripBookingAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		886AEEBF0423453CB7AB70AA /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE2221F841B4740B0D9DE72 /* Roboto-Italic.ttf */; };
 		94B81706C91F46B59692FA8B /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773E9CBB0D67425D8EB41A55 /* RobotoCondensed-BoldItalic.ttf */; };
 		AC970A164A044F9AA66939BA /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED2F05AFFD624C55AAAE2BF9 /* RobotoCondensed-Regular.ttf */; };
+		B163E9871B9CC3DE4C4391DD /* libPods-tripBookingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 765965EB0131F07ACE6C3B75 /* libPods-tripBookingApp.a */; };
 		C2A82ED896D84A7E92FB3F6D /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 462BC02B058E412CA7C067DE /* Roboto-Black.ttf */; };
 		C901FEA71FE142A09005E79C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6873EAAE3E644A369D8BB5B6 /* Roboto-Light.ttf */; };
 		CEDF85EFA86F4C768D5904BA /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 101341CF9C4C45A584960979 /* RobotoCondensed-Italic.ttf */; };
+		DC93775A14F3CFD55401B36A /* libPods-tripBookingApp-tripBookingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 257404D77C6F08BA4008AAAC /* libPods-tripBookingApp-tripBookingAppTests.a */; };
 		FAA04BFA41AE4B28A1463ED1 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF53BC74924B4711A823B7E6 /* RobotoCondensed-LightItalic.ttf */; };
 		FCB1418E336844A3A4125ED6 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDB7F2C59FC74D3DA2DA2665 /* Roboto-BlackItalic.ttf */; };
 /* End PBXBuildFile section */
@@ -57,23 +57,23 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tripBookingApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tripBookingApp/main.m; sourceTree = "<group>"; };
 		1C608952F5964E39AED0C1E1 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		1D0AE47A65C8663E3B452821 /* Pods-tripBookingApp-tripBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp-tripBookingAppTests.release.xcconfig"; path = "Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		257404D77C6F08BA4008AAAC /* libPods-tripBookingApp-tripBookingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tripBookingApp-tripBookingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B308F03121341BC89333306 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		462BC02B058E412CA7C067DE /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		6423831EA8574132BED9D8CC /* libPods-tripBookingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tripBookingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6873EAAE3E644A369D8BB5B6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		6C97AB639B58BBB4B15BBE30 /* Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71357ECB9F335DD0013CA366 /* Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		765965EB0131F07ACE6C3B75 /* libPods-tripBookingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tripBookingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		773E9CBB0D67425D8EB41A55 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = tripBookingApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		820F860EED7F1C6C7438DAEA /* Pods-tripBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp.debug.xcconfig"; path = "Target Support Files/Pods-tripBookingApp/Pods-tripBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9091A1E1DF554B8D91F54D92 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		ABFE59519B596E51CEFDCCC0 /* libPods-tripBookingApp-tripBookingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tripBookingApp-tripBookingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFD5C1D91572AEC704AAF13 /* Pods-tripBookingApp-tripBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp-tripBookingAppTests.release.xcconfig"; path = "Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1DA42BD492772B42EEB7E2C /* Pods-tripBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp.release.xcconfig"; path = "Target Support Files/Pods-tripBookingApp/Pods-tripBookingApp.release.xcconfig"; sourceTree = "<group>"; };
 		ACF2C78E61C0453ABD33B4E7 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		AF53BC74924B4711A823B7E6 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
 		B4183F0A6B9443628FA145B1 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		BAAB91C42CD24C2CBE983248 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		C0A881CF5CF3F2B244570E2A /* Pods-tripBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp.debug.xcconfig"; path = "Target Support Files/Pods-tripBookingApp/Pods-tripBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C733E283C29D471F8F495942 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		D00AAFFCFCFDA5787532823F /* Pods-tripBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripBookingApp.release.xcconfig"; path = "Target Support Files/Pods-tripBookingApp/Pods-tripBookingApp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2F05AFFD624C55AAAE2BF9 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		F211D22B40234B30AD91F192 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF68E3733C33B6898317E18 /* libPods-tripBookingApp-tripBookingAppTests.a in Frameworks */,
+				DC93775A14F3CFD55401B36A /* libPods-tripBookingApp-tripBookingAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6172F2D35A4C3AA820D92908 /* libPods-tripBookingApp.a in Frameworks */,
+				B163E9871B9CC3DE4C4391DD /* libPods-tripBookingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,10 +136,22 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6423831EA8574132BED9D8CC /* libPods-tripBookingApp.a */,
-				ABFE59519B596E51CEFDCCC0 /* libPods-tripBookingApp-tripBookingAppTests.a */,
+				765965EB0131F07ACE6C3B75 /* libPods-tripBookingApp.a */,
+				257404D77C6F08BA4008AAAC /* libPods-tripBookingApp-tripBookingAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BB2FB23762DB71D823515B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				820F860EED7F1C6C7438DAEA /* Pods-tripBookingApp.debug.xcconfig */,
+				A1DA42BD492772B42EEB7E2C /* Pods-tripBookingApp.release.xcconfig */,
+				71357ECB9F335DD0013CA366 /* Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig */,
+				9FFD5C1D91572AEC704AAF13 /* Pods-tripBookingApp-tripBookingAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -157,8 +169,8 @@
 				00E356EF1AD99517003FC87E /* tripBookingAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E233CBF5F47BEE60B243DCF8 /* Pods */,
 				D1838F18CF5444E886874A43 /* Resources */,
+				6BB2FB23762DB71D823515B8 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -200,18 +212,6 @@
 			path = "";
 			sourceTree = "<group>";
 		};
-		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C0A881CF5CF3F2B244570E2A /* Pods-tripBookingApp.debug.xcconfig */,
-				D00AAFFCFCFDA5787532823F /* Pods-tripBookingApp.release.xcconfig */,
-				6C97AB639B58BBB4B15BBE30 /* Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig */,
-				1D0AE47A65C8663E3B452821 /* Pods-tripBookingApp-tripBookingAppTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,12 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tripBookingAppTests" */;
 			buildPhases = (
-				A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */,
+				077A17C232F48787E5421FD2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */,
-				4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */,
+				C4CCCB6B6A1C09D03FEA99D3 /* [CP] Embed Pods Frameworks */,
+				547673241602EDF2132285DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,14 +240,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tripBookingApp" */;
 			buildPhases = (
-				3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */,
+				2CCF4607FE7CB02D37396D72 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */,
-				ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */,
+				9046657E84617D5B924BAD6E /* [CP] Embed Pods Frameworks */,
+				8F64BFC71AFBB4C520293CE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,63 +346,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tripBookingApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */ = {
+		077A17C232F48787E5421FD2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,7 +368,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */ = {
+		2CCF4607FE7CB02D37396D72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tripBookingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547673241602EDF2132285DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F64BFC71AFBB4C520293CE4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,7 +424,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp/Pods-tripBookingApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */ = {
+		9046657E84617D5B924BAD6E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,6 +439,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp/Pods-tripBookingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4CCCB6B6A1C09D03FEA99D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tripBookingApp-tripBookingAppTests/Pods-tripBookingApp-tripBookingAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -510,7 +510,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig */;
+			baseConfigurationReference = 71357ECB9F335DD0013CA366 /* Pods-tripBookingApp-tripBookingAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -537,7 +537,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-tripBookingApp-tripBookingAppTests.release.xcconfig */;
+			baseConfigurationReference = 9FFD5C1D91572AEC704AAF13 /* Pods-tripBookingApp-tripBookingAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -561,7 +561,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-tripBookingApp.debug.xcconfig */;
+			baseConfigurationReference = 820F860EED7F1C6C7438DAEA /* Pods-tripBookingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -587,7 +587,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-tripBookingApp.release.xcconfig */;
+			baseConfigurationReference = A1DA42BD492772B42EEB7E2C /* Pods-tripBookingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
