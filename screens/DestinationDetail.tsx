@@ -1,11 +1,27 @@
 import React from 'react';
 import {StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 import {COLORS, FONTS, icons, images, SIZES} from '../constants';
 
 interface Props {}
 interface StarProps {
   rate: number;
 }
+interface Props {}
+interface IconProps {
+  icon: any;
+  label: string;
+}
+
+const IconLabel = ({icon, label}: IconProps) => (
+  <View style={{alignItems: 'center'}}>
+    <Image source={icon} style={{width: 50, height: 50}} resizeMode="contain" />
+    <Text
+      style={{...FONTS.h3, color: COLORS.gray, marginTop: SIZES.padding * 0.8}}>
+      {label}
+    </Text>
+  </View>
+);
 
 const StarReview = ({rate}: StarProps) => {
   let starComponents = [];
@@ -153,9 +169,81 @@ const DestinationDetail = ({navigation, route}: any) => {
       </View>
 
       {/* Body */}
-      <View style={{flex: 1.5}}></View>
+      <View style={{flex: 1.5}}>
+        <View
+          style={{
+            flexDirection: 'row',
+            marginTop: SIZES.base,
+            paddingHorizontal: SIZES.padding * 2,
+            justifyContent: 'space-between',
+          }}>
+          <IconLabel icon={icons.villa} label="Villa" />
+          <IconLabel icon={icons.parking} label="Parking" />
+          <IconLabel icon={icons.wind} label="4°C" />
+
+          {/* About */}
+        </View>
+        <View style={{marginTop: SIZES.base, paddingHorizontal: SIZES.padding}}>
+          <Text style={{...FONTS.h2}}>About</Text>
+          <Text
+            style={{
+              marginTop: SIZES.radius,
+              color: COLORS.gray,
+              ...FONTS.body3,
+            }}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.
+          </Text>
+        </View>
+      </View>
       {/* Footer */}
-      <View style={{flex: 0.5}}></View>
+      <View style={{flex: 0.5, paddingHorizontal: SIZES.padding}}>
+        <LinearGradient
+          style={{height: 70, width: '100%', borderRadius: 15}}
+          colors={['#edf0fc', '#d6dfff']}
+          start={{x: 0, y: 0}}
+          end={{x: 1, y: 0}}>
+          <View
+            style={{
+              flex: 1,
+              flexDirection: 'row',
+              alignItems: 'center',
+            }}>
+            <View
+              style={{
+                flex: 1,
+                marginHorizontal: SIZES.padding,
+                justifyContent: 'center',
+              }}>
+              <Text style={{...FONTS.h1}}>$2000</Text>
+            </View>
+            <TouchableOpacity
+              style={{
+                width: 130,
+                height: '80%',
+                marginHorizontal: SIZES.radius,
+              }}
+              onPress={() => console.log('booked')}>
+              <LinearGradient
+                style={{
+                  flex: 1,
+                  height: 70,
+                  width: '100%',
+                  borderRadius: 15,
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+                colors={['#46aeff', '#5884ff']}
+                start={{x: 0, y: 0}}
+                end={{x: 1, y: 0}}>
+                <Text style={{...FONTS.h2, color: COLORS.white}}>BOOKING</Text>
+              </LinearGradient>
+            </TouchableOpacity>
+          </View>
+        </LinearGradient>
+      </View>
     </View>
   );
 };
