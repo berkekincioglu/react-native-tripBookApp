@@ -11,6 +11,7 @@ import {
   MenuOption,
   MenuTrigger,
 } from 'react-native-popup-menu';
+import {DrawerActions} from '@react-navigation/native';
 
 interface TabsProps {}
 
@@ -30,15 +31,6 @@ const Tabs: React.FunctionComponent<TabsProps> = props => {
             source={icons.back}
             resizeMode="contain"
             style={{width: 25, height: 25}}
-          />
-        </TouchableOpacity>
-      ),
-      headerRight: () => (
-        <TouchableOpacity onPress={() => navigation.navigate('Drawer')}>
-          <Image
-            source={icons.menu}
-            resizeMode="contain"
-            style={{width: 25, height: 25, marginRight: SIZES.padding}}
           />
         </TouchableOpacity>
       ),

@@ -1,35 +1,44 @@
 import React from 'react';
-import {View, Text, Button} from 'react-native';
-import {createDrawerNavigator} from '@react-navigation/drawer';
+import {View, Text, TouchableOpacity, Image} from 'react-native';
+import {
+  createDrawerNavigator,
+  DrawerContentScrollView,
+  DrawerItemList,
+  DrawerItem,
+} from '@react-navigation/drawer';
+import {useNavigation} from '@react-navigation/native';
+
+import {icons, SIZES} from '../constants';
 
 interface Props {}
+
 const Drawer: any = createDrawerNavigator();
 
-function HomeScreen({navigation}: any) {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Button
-        onPress={() => navigation.navigate('Tabs')}
-        title="Go to notifications"
-      />
-    </View>
-  );
-}
+const Settings = () => (
+  <View>
+    <Text>Settings</Text>
+  </View>
+);
 
-function NotificationsScreen({navigation}: any) {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Button onPress={() => navigation.goBack()} title="Go back home" />
-      <Button onPress={() => navigation.goBack()} title="Go back home" />
-    </View>
-  );
-}
+const Profile = () => (
+  <View>
+    <Text>Profile</Text>
+  </View>
+);
 
 const Drawers = (props: Props) => {
+  const navigation: any = useNavigation();
   return (
-    <Drawer.Navigator>
-      <Drawer.Screen name="Test" component={HomeScreen} />
-      <Drawer.Screen name="Notifications" component={NotificationsScreen} />
+    <Drawer.Navigator
+      drawerType="front"
+      initialRouteName="Profile"
+      options={{}}
+      screenOptions={{
+        activeTintColor: '#e91e63',
+        itemStyle: {marginVertical: 10},
+      }}>
+      <Drawer.Screen name="Profile" component={Profile} />
+      <Drawer.Screen name="Settings" component={Settings} />
     </Drawer.Navigator>
   );
 };
