@@ -27,7 +27,9 @@ const App = ({navigation}: any) => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="OnBoarding">
+      <Stack.Navigator
+        initialRouteName="OnBoarding"
+        screenOptions={{headerShadowVisible: false}}>
         <Stack.Screen
           name="OnBoarding"
           component={OnBoarding}
@@ -57,7 +59,10 @@ const App = ({navigation}: any) => {
           component={Tabs}
           options={{
             title: '',
-            headerStyle: {backgroundColor: COLORS.white},
+            headerStyle: {
+              backgroundColor: COLORS.white,
+            },
+
             headerRight: () => (
               <TouchableOpacity onPress={() => null}>
                 <Image
@@ -72,12 +77,16 @@ const App = ({navigation}: any) => {
         <Stack.Screen
           name="Destination"
           component={Destination}
-          options={{headerShown: false}}
+          options={{
+            headerShown: false,
+          }}
         />
         <Stack.Screen
           name="DestinationDetail"
           component={DestinationDetail}
-          options={{headerShown: false}}
+          options={{
+            headerShown: false,
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>

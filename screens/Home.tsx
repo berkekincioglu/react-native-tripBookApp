@@ -18,10 +18,42 @@ interface Props {}
 const Home = () => {
   const navigation: any = useNavigation();
   const [destinations, setDestinations] = useState<any>([
-    {id: 0, name: 'Ski Villa', image: images.skiVilla},
-    {id: 1, name: 'Climbing Hills', image: images.climbingHills},
-    {id: 2, name: 'Frozen Hills', image: images.frozenHills},
-    {id: 3, name: 'Beach', image: images.beach},
+    {
+      id: 0,
+      name: 'Ski Villa',
+      image: images.skiVilla,
+      location: 'France',
+      rate: 4.5,
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    },
+    {
+      id: 1,
+      name: 'Climbing Hills',
+      image: images.climbingHills,
+      location: 'Italy',
+      rate: 5,
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    },
+    {
+      id: 2,
+      name: 'Frozen Hills',
+      image: images.frozenHills,
+      location: 'Turkey',
+      rate: 2.3,
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    },
+    {
+      id: 3,
+      name: 'Beach',
+      image: images.beach,
+      location: 'Denmark',
+      rate: 4.7,
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    },
   ]);
 
   const renderDestinations = (item: any, index: any) => {
@@ -38,7 +70,7 @@ const Home = () => {
           marginHorizontal: SIZES.base,
           ...destinationStyle,
         }}
-        onPress={() => navigation.navigate('DestinationDetail')}>
+        onPress={() => navigation.navigate('DestinationDetail', {item})}>
         <Image
           source={item.image}
           resizeMode="cover"
